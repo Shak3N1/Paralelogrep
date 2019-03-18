@@ -1,8 +1,8 @@
 **Paralelogrep**<br />
 Trabalho realizado para a disciplina de Sistema Operacionais <br />
-**Objetivo:** Verificar ocorrência de palavras em arquivos utilizando <br />
+**Objetivo:** Verificar ocorrência de palavras em arquivos utilizando threads<br />
 Para utilizar o programa basta criar uma pasta chamada fileset, nela adicionar os arquivos desejados e executar o comando:<br />
-./paralelogrep palavra <br />
+./paralelogrep < palavra > <br />
 ou  <br />
-./paralelogrep palavra intervalo de verificação do arquivos em segundos <br />
+./paralelogrep < palavra > < intervalo de verificação do arquivos em segundos > <br />
 caso não passado o intervalo, o valor padrão é 5 segundos <br />
